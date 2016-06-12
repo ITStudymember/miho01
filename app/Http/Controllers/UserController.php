@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+
+class UserController extends Controller
+{
+    public function getUser(){
+	$sakoda = '‚³‚±‚³‚±'
+	
+	dd($sakoda);
+
+	return views('index');
+}
